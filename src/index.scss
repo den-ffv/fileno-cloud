@@ -1,0 +1,17 @@
+@import "./config.scss";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: $base-color;
+  font-family: $base-font;
+}
+.wrapper{
+  display: flex;
+}
+.content{
+  width: 100%;
+}

@@ -1,0 +1,80 @@
+@import "../../config.scss";
+
+.form {
+  background: $base-color;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px 0px 0px;
+  &__logo {
+    margin: 0px 0px 25px 0px;
+  }
+  &__title {
+    font-style: 24px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    span {
+      font-family: "Roboto Mono", monospace;
+    }
+  }
+  &__content {
+    background: #f6f8fa;
+    border: 1px solid hsla(210, 18%, 87%, 1);
+    border-radius: 6px;
+    max-width: 308px;
+    margin: 16px 0px 0px 0px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    .label {
+      font-family: system-ui;
+      font-size: 14px;
+      font-weight: 400;
+      margin: 0px 0px 8px 0px;
+    }
+  }
+  &__button {
+    margin: 16px 0px 0px 0px;
+    padding: 8px 0px;
+    color: $base-color;
+    background: $text-color;
+    border: none;
+    border-radius: 6px;
+  }
+  &__callout {
+    max-width: 308px;
+    width: 100%;
+    margin: 16px 0px 0px 0px;
+    font-size: 14px;
+    padding: 16px 16px;
+    text-align: center;
+    border: 1px solid $border-color;
+    border-radius: 6px;
+    a{
+      text-decoration: none;
+      color: $link-color;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.ui-input {
+  padding: 5px 12px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  width: 274px;
+  font-size: 14px;
+  line-height: 20px;
+  color: $text-color;
+  vertical-align: middle;
+  background-color: $base-color;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 2px solid $border-color;
+  border-radius: 6px;
+
+}
